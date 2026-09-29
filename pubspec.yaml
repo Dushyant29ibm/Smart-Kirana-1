@@ -1,0 +1,23 @@
+name: kirana_smart
+description: Offline-first POS, inventory and customer khata app for small general stores.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive_ce: ^2.20.1
+  hive_ce_flutter: ^2.4.0
+  intl: ^0.20.3
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
