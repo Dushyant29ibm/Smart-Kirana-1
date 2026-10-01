@@ -136,7 +136,8 @@ class KiranaRepository {
 
     final total = lines.fold<double>(0, (sum, e) => sum + e.lineTotal);
     final saleId = _id();
-    final creditAdded = paymentMethod == PaymentMethod.udhar ? total : 0;
+    final double creditAdded =
+      paymentMethod == PaymentMethod.udhar ? total : 0.0;
 
     final sale = Sale(
       id: saleId,

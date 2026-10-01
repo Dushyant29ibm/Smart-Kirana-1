@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../../core/utils/formatters.dart';
-import '../../data/models/customer.dart';
 import '../controllers/app_controller.dart';
 import 'customer_detail_screen.dart';
 
